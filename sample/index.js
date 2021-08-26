@@ -9,6 +9,7 @@ const style_css = fs.readFileSync('./style.css', 'utf8');
 var server = http.createServer(getFromClient);
 const PORT = process.env.PORT || 3000;
 server.listen(PORT);
+
 console.log('server start');
 
 function getFromClient(request, response){
