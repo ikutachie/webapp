@@ -24,6 +24,7 @@ function getFromClient(request, response){
      response.write(content);
      response.end();
      break;
+     
 
     case'/style.css':
       response.writeHead(200, {'Content-Type': 'text/css'});
